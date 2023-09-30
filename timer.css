@@ -1,0 +1,112 @@
+*{
+    background-color: #1D1D23;
+ 
+}
+#heading{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+#mian{
+    margin-top: 20px;
+}
+
+#setTimer{
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    height: 100px;
+    background-color: #34344A;
+    align-items: center;
+    border-radius: 20px;
+    /* border: 2px solid red; */
+    margin-left: 200px;
+}
+
+p , label{
+    background-color: transparent;
+}
+
+#setTimeButton{
+    background-color: rgb(240,247,87);
+    width: 100px;
+    height: 20px;
+    border-radius: 15px;
+    border: none;
+}
+#setTimer > label > input {
+    background-color: white;
+    font-weight: 500;
+}
+#displayTimer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    gap: 10px;
+}
+#cuurentTimer{
+    background-color:#39393E;
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+    /* border: 2px solid red; */
+}
+#dispalyCurrentTime{
+    color: white;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+#timerDiv{
+    background-color: #34344A ;
+    display: flex;
+    gap: 20px;
+    width: 500px;
+    justify-content:space-around;
+    height: 60px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#time-left{
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+}
+#deleteButton{
+    background-color: rgb(240,247,87);
+    border-radius: 10px;
+    color: black;
+    width: 80px;
+    border: none;
+    height: 25px;
+}
+
+#timer{
+    color: white;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+#update{
+    color : black;
+    font-size: 40px;
+    background-color: transparent;
+}
+
+#notext{
+    font-size: 20px;
+}
