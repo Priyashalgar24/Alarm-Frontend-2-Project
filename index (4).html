@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Alarm Frontend-2 Project</title>
     <link rel="stylesheet" href="timer.css">
 
 </head>
@@ -14,19 +14,22 @@
     <main id="mian">
         <div id="setTimer">
             <p id="setTime">Set Time :</p>
+            <!--used id to set the time-->
             <label for="hours">
                 Hours :
                 <input type="number" id="hours" min="0">
+                <!--using label element to input fields like hours, minutes, seconds-->
             </label>
             <label for="minutes">
                 Minutes :
                 <input type="number" id="minutes" min="0">
             </label>
-            <label for="Secound">
-                Secound :
-                <input type="number" id="Secound" min="0">
+            <label for="seconds">
+                Seconds :
+                <input type="number" id="seconds" min="0">
             </label>
-            <button id="setTimeButton">SET</button>
+            <button id="setTimeButton">SET TIME</button>
+            <!--created a button for set time which is clickable-->
         </div>
         <div id="displayTimer">
             <div id="cuurentTimer">Current Timers</div>
